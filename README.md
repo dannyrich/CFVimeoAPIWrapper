@@ -1,3 +1,6 @@
+This project has been abandoned. I have not used it since 2014 and do not know if it still works with Vimeo's API. But feel free to use it or make a fork of it if you want to keep it going. 
+
+
 CFVimeoAPIWrapper
 =================
 
@@ -11,7 +14,7 @@ All examples assume
 <cfset ACCESS_TOKEN_SECRET = "Access token secret provided by Vimeo">
 ```
 
-##API
+## API
 All of Vimeo's API calls can be made in a similar way to this example:
 
 ```
@@ -31,7 +34,7 @@ All of Vimeo's API calls can be made in a similar way to this example:
 
 A list of available API calls are available at http://developer.vimeo.com/api/endpoints
 
-##Upload Videos:
+## Upload Videos:
 
 ```
 <cfset local.vimeo = createObject("component", "VimeoComponent")>
